@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=production node server",
-    "dev": "nodemon server"
+    "dev": "nodemon -L server",
+    "build": "node build"
   },
   "keywords": [],
   "author": "Kush Bhandari",
@@ -20,7 +21,8 @@
     "mongoose": "^6.9.0",
     "morgan": "^1.10.0",
     "node-geocoder": "^4.2.0",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
